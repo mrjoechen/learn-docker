@@ -30,10 +30,10 @@
 ###### 进入正在运行容器
 
 ```
-  docker exec -it 775c7c9ee1e1 /bin/bash
+  docker exec -it 64e3220bc736 /bin/bash
   
     -t让Docker分配一个伪终端并绑定在容器的标准输入上，-i让容器的标准输入保持打开。
   或
-  docker exec -it 775c7c9ee1e1 /bin/sh
+  docker exec -it 64e3220bc736 /bin/sh
 ```
 <img src="https://github.com/mrjoechen/learn-docker/blob/master/images/1562312427827.jpg"/>
