@@ -2,13 +2,16 @@
 
 ### docker
 
+
 ##### 查看镜像列表
+
 
 ```
   docker images
 ```
 
 ###### 以镜像启动容器
+
 
 ```
   docker run
@@ -24,10 +27,12 @@
 
 ###### 查看正在运行容器
 
+
 ```
   docker ps
 ```
 ###### 进入正在运行容器
+
 
 ```
   docker exec -it 64e3220bc736 /bin/bash
