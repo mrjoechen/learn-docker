@@ -42,3 +42,12 @@
   docker exec -it 64e3220bc736 /bin/sh
 ```
 <img src="https://github.com/mrjoechen/learn-docker/blob/master/images/1562312427827.jpg"/>
+
+###### docker 删除镜像
+```
+  docker rmi [options "o">] <image>  "o">[image...]
+  docker rmi nginx:latest postgres:latest python:latest
+```
+从本地移除一个或多个指定的镜像。
+
+-f 强行移除该镜像，即使其正被使用；
