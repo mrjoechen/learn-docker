@@ -47,7 +47,19 @@
 ```
   docker rmi [options "o">] <image>  "o">[image...]
   docker rmi nginx:latest postgres:latest python:latest
-```
-从本地移除一个或多个指定的镜像。
+  
+  从本地移除一个或多个指定的镜像。
 
 -f 强行移除该镜像，即使其正被使用；
+```
+
+
+###### docker 删除容器
+```
+  docker rm [options "o">] <container>  "o">[container...]
+  docker rm nginx-01 nginx-02 db-01 db-02
+  sudo docker rm -l /webapp/redis
+  -f 强行移除该容器，即使其正在运行；
+  -l 移除容器间的网络连接，而非容器本身；
+  -v 移除与容器关联的空间。
+ ```
